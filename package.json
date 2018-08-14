@@ -39,7 +39,7 @@
       }
     },
     "bootstrap-tagsinput": {
-      "map": "npm:bootstrap-tagsinput@0.7.1/./dist",
+      "map": "npm:bootstrap-tagsinput@0.7.1/dist",
       "package": {
         "defaultExtension": "js",
         "main": "bootstrap-tagsinput.min.js"
@@ -49,7 +49,7 @@
       }
     },
     "aurelia-bootstrap-tagsinput": {
-      "map": "npm:aurelia-bootstrap-tagsinput@1.1.2/./dist/amd",
+      "map": "npm:aurelia-bootstrap-tagsinput@1.1.2//dist/amd",
       "package": {
         "defaultExtension": "js",
         "main": "index.js"
