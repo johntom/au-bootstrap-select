@@ -39,7 +39,7 @@
       }
     },
     "bootstrap-tagsinput": {
-      "map": "npm:bootstrap-tagsinput@0.7.1/dist",
+      "map": "npm:bootstrap-tagsinput@0.7.1",
       "package": {
         "defaultExtension": "js",
         "main": "bootstrap-tagsinput.js"
