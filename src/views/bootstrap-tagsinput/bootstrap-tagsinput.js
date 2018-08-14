@@ -1,4 +1,4 @@
-import 'bootstrap-select/bootstrap-tagsinput.css';
+import 'bootstrap-tagsinput/bootstrap-tagsinput.css';
 
 export class BootstrapTagsinput {
 
