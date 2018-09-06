@@ -27,15 +27,12 @@ export class AubTypeahead {
     this.httpClient = httpClient;
   }
   getStates(filter, limit) {
-    let promise = this.httpClient.fetch('data/states.json')
+    return this.httpClient.fetch('data/states.json')
       .then(response => {
         return response.json();
       })
       .then(states => filter.length > 0 ? states.filter(item => item.state.toLowerCase().indexOf(filter.toLowerCase()) > -1) : states)
       .then(states => limit ? states.splice(0, limit) : states);
-
-    return promise;
-    // return Promise.delay(500, promise);
   }
 
   monthSelected(item) {
