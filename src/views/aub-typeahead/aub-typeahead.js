@@ -22,7 +22,14 @@ export class AubTypeahead {
   ];
 
   fruits = ['Apple', 'Orange', 'Grapes', 'Pineaple', 'Peach', 'Bananas'];
-
+  fruits2 = [
+    { id: 1, name: 'Apple' },
+    { id: 2, name: 'Orange' },
+    { id: 10, name: 'Grapes' },
+    { id: 12, name: 'Pineaple' },
+    { id: 13, name: 'Peach' },
+    { id: 14, name: 'Bananas' }
+  ];
   constructor(httpClient) {
     this.httpClient = httpClient;
   }
