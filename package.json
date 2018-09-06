@@ -57,6 +57,16 @@
       "meta": {
         "deps": ["bootstrap", "bootstrap-tagsinput", "jquery"]
       }
+    },
+    "aurelia-bootstrap": {
+      "map": "npm:aurelia-bootstrap@0.1.20/./dist/amd",
+      "package": {
+        "defaultExtension": "js",
+        "main": "index.js"
+      },
+      "meta": {
+        "deps": ["bootstrap", "jquery"]
+      }
     }
   },
   "dependencies": {
@@ -95,7 +105,8 @@
     "jquery": "3.1.1",
     "bootstrap": "3.3.7",
     "bootstrap-select": "1.13.1",
-    "aurelia-bootstrap-select": "1.3.1"
+    "aurelia-bootstrap-select": "1.3.1",
+    "aurelia-bootstrap": "0.1.20"
   },
   "peerDependencies": {},
   "devDependencies": {
